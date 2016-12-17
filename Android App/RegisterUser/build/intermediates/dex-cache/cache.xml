@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="dcfb7db05bfca16d4816cf2d38f18e3cc6e5bfbb">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c7e4cc87761af0b7104a732eb5664c50e89fb513\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_6d9aa3334219adb603385f76acf4c317b2596296\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_57c5d94135ac820bf5b3aa04904b4fd910479713\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_1c5e415376f556bfbe31e145fa81b5cb7326861c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5ea3150bad30cec4d4ef774d36ea8e1cedc8fac2">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9618a3899ad4deb5075929e750054ce80cc0557\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_e39beeaeb6e0b7e141574c83df0fb80731d97d9f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_fc0bc5c0fe41c51089cef27f972f62d4ecc90c22\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Vivek\AndroidStudioProjects\RegisterUser\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_81a9aa19c437ffdfb4e49ae2b7373191432d1013\classes.dex" />
+    </item>
+
+</items>

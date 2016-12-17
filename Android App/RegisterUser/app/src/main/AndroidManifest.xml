@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.registeruser">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name = ".RegisterActivity"
+                  android:label="Register New Account"></activity>
+
+        <activity android:name = ".controlEllo"
+            android:label="Open/Close bin ; display Sensor data"></activity>
+
+        <activity android:name = ".landing_page"
+        android:label="Home Page"></activity>
+
+
+        <activity android:name = ".bluetoothConnector"
+            android:label="Open control ello page"></activity>
+
+        <activity android:name = ".getanalytics"
+            android:label="analyticsPage"></activity>
+
+        <activity android:name = ".maintainance"
+            android:label= "Maintainance">
+            <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+        </activity>
+
+        <activity android:name = ".touchless_sensor_info"
+            android:label="analyticsPage"></activity>
+
+        <activity android:name = ".residual_space_sensor"
+            android:label="analyticsPage"></activity>
+
+        <activity android:name = ".lid_motor_info"
+            android:label="analyticsPage"></activity>
+
+
+        <activity android:name = ".motorized_tray_info"
+            android:label="analyticsPage"></activity>
+
+
+
+
+
+    </application>
+
+</manifest>

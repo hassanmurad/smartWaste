@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toplayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/irlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/logoirjpg"
+                />
+
+
+            <ImageView
+                android:id="@+id/ellologo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ellonamecorrected" />
+
+        //First icon
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/touchlessSensorbtn"
+                android:src="@drawable/greencircle"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Touchless Sensor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                />
+
+            </LinearLayout>
+
+            //Second icon
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/residualSpaceSensorbtn"
+                    android:src="@drawable/greencircle"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Residual Space Sensor"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            //Third icon
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lidMotorbtn"
+                    android:src="@drawable/redcircle"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lid Motor"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+            //Fourth icon
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="40dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/motorizedTrayButton"
+                    android:src="@drawable/greencircle"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Motorized Tray"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#000000"/>
+
+
+            //Phone Icon
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phonebtn"
+                    android:src="@drawable/call"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call for Technical Support"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="65dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+
+
